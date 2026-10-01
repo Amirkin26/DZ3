@@ -1,5 +1,4 @@
-﻿
-using Latypova;
+﻿using Latypova;
 
 class Program
 {
@@ -7,7 +6,6 @@ class Program
     {
         // Задача 1
         Console.WriteLine("Задача 1");
-        Console.WriteLine("Определить, является ли последовательность из 10 чисел упорядоченной по возрастанию.");
         Console.WriteLine("Введите 10 чисел:");
 
         int[] numbers = new int[10];
@@ -23,14 +21,12 @@ class Program
         }
 
         bool ordered = true;
-        int firstWrong = 0;
 
         for (int i = 1; i < 10; i++)
         {
             if (numbers[i] <= numbers[i - 1])
             {
                 ordered = false;
-                firstWrong = i + 1;
                 break;
             }
         }
@@ -42,14 +38,12 @@ class Program
         else
         {
             Console.WriteLine("Последовательность не упорядочена.");
-            Console.WriteLine("Порядковый номер первого нарушающего числа: " + firstWrong);
         }
 
 
         // Задача 2
         Console.WriteLine();
         Console.WriteLine("Задача 2");
-        Console.WriteLine("Определить достоинство игральной карты.");
         Console.WriteLine("Введите номер карты от 6 до 14:");
 
         int k;
@@ -110,10 +104,6 @@ class Program
             {
                 Console.WriteLine("Ошибка: " + ex.Message);
             }
-            finally
-            {
-                Console.WriteLine("Обработка карты завершена.");
-            }
         }
         else
         {
@@ -126,29 +116,29 @@ class Program
         Console.WriteLine("Задача 3");
         Console.WriteLine("Введите профессию:");
 
-        string profession = Console.ReadLine();
+        string profession = Console.ReadLine().ToLower();
 
-        if (profession.Equals("Jabroni", StringComparison.OrdinalIgnoreCase))
+        if (profession == "jabroni")
         {
             Console.WriteLine("Patron Tequila");
         }
-        else if (profession.Equals("School Counselor", StringComparison.OrdinalIgnoreCase))
+        else if (profession == "school counselor")
         {
             Console.WriteLine("Anything with Alcohol");
         }
-        else if (profession.Equals("Programmer", StringComparison.OrdinalIgnoreCase))
+        else if (profession == "programmer")
         {
             Console.WriteLine("Hipster Craft Beer");
         }
-        else if (profession.Equals("Bike Gang Member", StringComparison.OrdinalIgnoreCase))
+        else if (profession == "bike gang member")
         {
             Console.WriteLine("Moonshine");
         }
-        else if (profession.Equals("Politician", StringComparison.OrdinalIgnoreCase))
+        else if (profession == "politician")
         {
             Console.WriteLine("Your tax dollars");
         }
-        else if (profession.Equals("Rapper", StringComparison.OrdinalIgnoreCase))
+        else if (profession == "rapper")
         {
             Console.WriteLine("Cristal");
         }
@@ -161,7 +151,6 @@ class Program
         // Задача 4
         Console.WriteLine();
         Console.WriteLine("Задача 4");
-        Console.WriteLine("Определить название дня недели.");
         Console.WriteLine("Введите номер дня недели от 1 до 7:");
 
         int day;
