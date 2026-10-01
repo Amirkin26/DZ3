@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tumakov", "Tumakov\Tumakov.csproj", "{CA5CF24E-8383-40B5-A199-B16AEA96BE41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latypova", "Latypova\Latypova.csproj", "{50B818E2-1AE9-43E5-9012-13E74472795D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA5CF24E-8383-40B5-A199-B16AEA96BE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5CF24E-8383-40B5-A199-B16AEA96BE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5CF24E-8383-40B5-A199-B16AEA96BE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5CF24E-8383-40B5-A199-B16AEA96BE41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B818E2-1AE9-43E5-9012-13E74472795D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B818E2-1AE9-43E5-9012-13E74472795D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B818E2-1AE9-43E5-9012-13E74472795D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B818E2-1AE9-43E5-9012-13E74472795D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
